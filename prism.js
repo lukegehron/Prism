@@ -54,9 +54,9 @@ function draw() {
   push();
 
 
-  rotateZ(frameCount*2 * PI/510);
-  rotateX(frameCount*2 * PI/510);
-  rotateY(frameCount*2 * PI/510);
+  rotateZ(frameCount * PI/510);
+  rotateX(frameCount * PI/510);
+  rotateY(frameCount * PI/510);
 
   console.log(fcm);
 
