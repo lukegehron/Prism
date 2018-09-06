@@ -1,6 +1,5 @@
 //var img;
 var prism;
-var prism2;
 var pg0;
 var pg1;
 var pg2;
@@ -8,7 +7,6 @@ var pg3;
 
 function preload(){
   prism = loadModel('assets/prism.obj');
-  prism2 = loadModel('assets/prism2.obj');
 }
 
 function setup() {
